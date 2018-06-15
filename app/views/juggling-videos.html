@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Blank page
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <a class="link-back" href="start-page">Back</a>
+
+      <form class="form" action="juggling-videos" method="post">
+
+        <div class="form-group">
+          <fieldset>
+
+            <legend>
+              <h1 class="heading-large">Watch the masters in action</h1>
+            </legend>
+            <div class="videos">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/kCt1bmSASCI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+</main>
+
+{% endblock %}
